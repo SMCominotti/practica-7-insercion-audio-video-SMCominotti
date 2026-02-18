@@ -113,6 +113,8 @@ Implementa las siguientes funcionalidades extra:
 
 Incluye el vídeo con todas sus funcionalidades implementadas en una nueva página de tu proyecto web con el título “Control de vídeo”. Realiza los ajustes necesarios para que se adapte a los distintos dispositivos.
 
+Comprobar que el vídeo funciona bien desde la dirección sumunistrada, si no es así, descargar el vídeo y copiarlo en en el repositorio.
+
 Realiza los cambios en el repositorio creado para la práctica y activa Github Pages para que se pueda visualizar la web.
 
 Una vez acabada la práctica agrega un issue nombrandome para que quede constancia de la entrega.
