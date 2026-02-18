@@ -1,4 +1,3 @@
-// Definimos las variables de forma global para que todas las funciones las vean
 var medio, play, reiniciar, retrasar, adelantar, silenciar, masVolumen, menosVolumen;
 
 function accionPlay() {
@@ -23,7 +22,7 @@ function accionRetrasar() {
     medio.currentTime = Math.max(0, medio.currentTime - 5);
 }
 
-function accionAdelantar() {
+function accionAdelantar() {   
     medio.currentTime = Math.min(medio.duration, medio.currentTime + 5);
 }
 
@@ -50,7 +49,7 @@ function accionMenosVolumen() {
 }
 
 function iniciar() {
-    // Enlazamos las variables con los IDs del HTML
+    // Localizar elementos
     medio = document.getElementById('medio');
     play = document.getElementById('play');
     reiniciar = document.getElementById('reiniciar');
@@ -60,7 +59,7 @@ function iniciar() {
     masVolumen = document.getElementById('masVolumen'); 
     menosVolumen = document.getElementById('menosVolumen'); 
 
-    // Añadimos los "escuchadores" de clics
+    // Añadir eventos
     play.addEventListener('click', accionPlay);
     reiniciar.addEventListener('click', accionReiniciar);
     retrasar.addEventListener('click', accionRetrasar);
